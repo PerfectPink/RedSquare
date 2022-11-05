@@ -1,0 +1,92 @@
+html,body{
+    margin: 0 auto;
+}
+body{
+    background-color:#c1cfc0ab;
+}
+:root {
+    --objX:200px;
+    --objY:200px;
+}
+#mainSquare{
+    width: var(--objX);
+    height: var(--objY);
+    max-width: 900px;
+    max-height: 900px;
+    text-align: center;
+    overflow: hidden;
+}
+.section-main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.btns button{
+    padding: 15px 20px 15px 20px;
+    margin: 15px 10px 15px 10px;
+    font-size: 1em;
+}
+.hide{
+    opacity: 0%;
+}
+.show{
+    opacity: 1337%;
+}
+.rounded{
+    border-radius: 100%;
+}
+.makeRed{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.btns-block-left{
+    padding: 1em;
+    background-color: #6B7AA1;
+    border: 5px solid #11324D;
+    border-radius: 0em 1em 1em 0em;
+}
+.btns-block-right{
+    padding: 1em;
+    background-color: #6B7AA1;
+    border: 5px solid #11324D;
+    border-radius: 1em 0em 0em 1em;
+}
+
+.btns button {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btns button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}

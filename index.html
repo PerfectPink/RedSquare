@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>RedSquare</title>
+</head>
+
+<body>
+    <section class="section-main">
+        <div class="btns btns-block-left">
+            <button onclick="RSallX3()">Увеличить его в 3 раза</button>
+            <button onclick="RSwidthX3()">Увеличть ширину в 2 раза</button>
+            <button onclick="RSheightX3()"> Увеличить высоту в 2 раза</button>
+            <button onclick="RSmakeRounded()">сделать кругом</button>
+            <button onclick="RSdefault()">дефолт</button>
+        </div>
+        <section class="squarePlace">
+            <div id="mainSquare" class="blue"></div>
+        </section>
+        <div class="btns btns-block-right">
+            <textarea name="" id="btn-textArea" cols="10" rows="10"></textarea>
+            <button onclick="RSaddText()">добавить текст</button>
+            <button onclick="RSmakeRed()"> сделать его красным</button>
+            <button onclick="RShide()">скрыть</button>
+            <button onclick="RSshow()">показать</button>
+        </div>
+
+
+    </section>
+</body>
+
+</html>
